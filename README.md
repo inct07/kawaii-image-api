@@ -10,7 +10,7 @@ $ git clone git@github.com:inct07/kawaii-image-api.git
 $ cd $GOPATH/src/github.com/inct07/kawaii-image-api
 
 # vendoring
-$ dep init
+$ dep ensure
 
 # ローカル起動
 $ go run main.go
